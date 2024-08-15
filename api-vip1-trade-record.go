@@ -15,7 +15,7 @@ type TradeRecordResponse struct {
 	Name     string `json:"name"`
 	Alias    string `json:"alias"`
 	Subalias string `json:"subalias"`
-	Row      string `json:"row"`
+	Raw      string `json:"raw"`
 	Level    int    `json:"level"`
 	Desc     string `json:"desc"`
 	View     string `json:"view"`
